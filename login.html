@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+
+        <!--Linking CSS style sheet to HTML-->
+        <link rel="stylesheet" href="MTG.css">
+
+</head>
+
+<!--connecting pages and making login active-->
+<div class="header">
+    <a href="logo.ico" class="logo"></a>
+    <div class="header-right">
+        <a href="MTG.html">Home</a>
+        <a href="#contact">Contact</a>
+        <a href="about.html">About</a>
+        <a href="uploadcards.html">Gallery</a>
+        <a href="inventory.html">Inventory</a>
+        <a class="active" href="login.html">Login/Sign Up</a>
+    </div>
+  </div>
+
+<body>
+
+    <style>
+        body {overflow:scroll;}
+        </style>
+        
+    <!--adding Headline-->
+    <h1>
+        User Profile
+    </h1>
+
+    <div class="avatar1">
+        <form action="/action_page.php" class="container4">
+          <h1>Login</h1>
+      
+          <label for="User"><b>User</b></label>
+          <input type="text" placeholder="Enter User" name="User" required>
+      
+          <label for="psw"><b>Password</b></label>
+          <input type="password" placeholder="Enter Password" name="psw" required>
+      
+          <button type="submit" class="btn">Login</button>
+        </form>
+      </div>
+
+</body>
